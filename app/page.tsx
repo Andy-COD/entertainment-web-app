@@ -1,14 +1,13 @@
+import Recommended from '@/components/Recommended'
 import SearchBar from '@/components/SearchBar'
-import { usePathname } from 'next/navigation'
+import Trending from '@/components/Trending'
 
 export default function Home() {
-
-  // Access the current route path using router.pathname
-  
-
   return (
-    <section className='w-full min-h-full flex py-8 px-4 mx-4 my-4' >
+    <section className='w-full min-h-full flex py-8 px-4 mx-4 my-4 flex-col' >
       <SearchBar />
+      <Trending />
+      <Recommended />
     </section>
   )
 }

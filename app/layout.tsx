@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex flex-row gap-4 min-h-full w-full">
         <NavBar />
-        <main>{children}</main>
+        <main className="flex">{children}</main>
       </body>
     </html>
   );

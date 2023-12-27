@@ -42,3 +42,11 @@ nav {
 .search div:nth-of-type(2) {
   width: 95%;
 }
+
+.card-item {
+  background-color: #5A698F;
+}
+
+.title {
+  color: #FFFFFF;
+}

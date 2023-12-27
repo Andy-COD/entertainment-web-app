@@ -32,9 +32,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex py-8 px-4 mx-4 my-4">
-      <div className="navbar px-4 max-w-6xl mx-auto flex-col justify-between">
-        <div className="flex flex-col justify-between h-96">
+    <nav className="flex py-2 px-4 mx-4 my-4">
+      <div className="navbar px-2 max-w-6xl mx-auto flex-col justify-between">
+        <div className="flex flex-col gap-16 h-96">
           <Link href={"/"} className="pb-4">
             <Image src={logo} alt="logo" width={35} height={35} />
           </Link>
