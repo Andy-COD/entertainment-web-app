@@ -22,11 +22,11 @@ const SearchBar = () => {
         }
     }
   return (
-    <section className="w-full h-3 py-6 flex items-center search gap-0">
+    <section className="w-[95%] h-3 py-6 flex items-center search gap-0">
       <div>
         <Image src={icon} alt="search icon" width={25} height={25} />
       </div>
-      <div>
+      <div className="w-[80%]">
         <input type="text" className="w-full py-2 px-5 bg-none focus: outline-none custom-input" placeholder={getRoutePlaceholder()} />
       </div>
     </section>

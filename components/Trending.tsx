@@ -5,7 +5,7 @@ import Image from "next/image";
 const Trending = () => {
   const trends = data.filter((movie) => movie.thumbnail?.trending);
   return (
-    <section className="py-5 flex flex-col items-start">
+    <section className="py-5 flex flex-col items-start trend-section">
       <h1 className="text-3xl">Trending</h1>
       <div className="carousel carousel-center max-20">
         <div className="carousel-item">
@@ -29,7 +29,7 @@ const Trending = () => {
                         src={
                           trending.category == "Movie"
                             ? "/assets/icon-category-movie.svg"
-                            : "/assets/icon-icon-category-tv.svg"
+                            : "/assets/icon-category-tv.svg"
                         }
                         alt="movies"
                         width={10}
